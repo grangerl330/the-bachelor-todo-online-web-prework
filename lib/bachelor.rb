@@ -57,5 +57,5 @@ def get_average_age_for_season(data, season)
       end
     end
   end
-  age_array.reduce(:+).to_f / age_array.size  
+  age_array.inject(0, :+).to_f / age_array.size  
 end
