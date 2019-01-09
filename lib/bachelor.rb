@@ -1,5 +1,3 @@
-require 'pry'
-
 def get_first_name_of_season_winner(data, season)
   season_winner = ""
   winner_array = []
